@@ -1,6 +1,6 @@
 body {
   font-family: "Office Code Pro",-apple-system-headline, -apple-system, "San Francisco Display", "San Francisco", ".SFNSDisplay-Regular", "Roboto", "Office Code Pro", Arial, sans-serif;
-  background-color: rgb(250,250,250);
+  background-color: #ffffff;
   color: #111;
   margin: 0;
   font-size: 20px;
@@ -36,6 +36,8 @@ footer {
   margin-top: 90px;
   box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.08);
   border-radius: 2px;
+  width: 100%;
+  height: auto;
 }
 
 .lines {
@@ -45,7 +47,7 @@ footer {
   margin-left: -470px;
   top: 0;
   z-index: -1;
-  opacity: .9;
+  opacity: .7;
 }
 
 .flex {
