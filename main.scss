@@ -1,0 +1,83 @@
+body {
+  font-family: "Office Code Pro",-apple-system-headline, -apple-system, "San Francisco Display", "San Francisco", ".SFNSDisplay-Regular", "Roboto", "Office Code Pro", Arial, sans-serif;
+  background-color: rgb(250,250,250);
+  color: #111;
+  margin: 0;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  line-height: 36px;
+  display: flex;
+  height: 100vh;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 200;
+}
+
+footer {
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  height: 200px;
+  margin-top: 35px;
+  color: darken(#FAFAFA, 30%);
+}
+
+// layout
+.container {
+  max-width: 940px;
+  flex: 1;
+}
+
+.tree {
+  margin-bottom: 30px;
+}
+
+.taiga {
+  margin-top: 90px;
+}
+
+.lines {
+  position: absolute;
+  width: 940px;
+  left: 50%;
+  margin-left: -470px;
+  top: 0;
+  z-index: -1;
+  opacity: .9;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mt {
+  margin-top: 160px;
+}
+
+.mr {
+  margin-right: 20px;
+}
+
+// type
+a {
+  text-decoration: none;
+  color: #111;
+  transition: all 200ms ease;
+  border-bottom: 1px solid #111;
+
+
+  &:hover {
+    color: #59ACE3;
+    border-bottom: 1px solid #59ACE3;
+  }
+}
+
+p {
+    /* Focus on your emails: */
+  // font-family: OfficeCodePro-Light;
+  margin-top: 0;
+  margin-bottom: 2px;
+}
